@@ -1,0 +1,27 @@
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 21px;
+  padding-right: 26px;
+  padding-top: 11px;
+  margin-bottom: 27px;
+}
+
+.main_header_signature {
+  margin: 0;
+  width: 580px;
+  height: 77px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+}
+
+@media only screen and (min-height: 800) {
+  .main_header {
+    margin-bottom: 67px;
+  }
+}

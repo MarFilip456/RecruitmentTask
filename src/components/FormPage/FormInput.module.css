@@ -1,0 +1,62 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.main label {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.main_input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.main p {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  position: absolute;
+  margin: 0;
+  transform: translate(0, 60px);
+  color: red;
+  align-self: flex-end;
+}
+
+.main_inputError {
+  width: 100%;
+  border: none;
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid red;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+@media only screen and (min-width: 460px) {
+  .main p {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-height: 800px) {
+  .main label {
+    margin-bottom: 40px;
+  }
+  .main p {
+    transform: translate(0, 80px);
+  }
+}
